@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class CandidateTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+	test "should be valid factory" do
+		candidate = build(:candidate)
+		assert candidate.valid?
+	end
 end

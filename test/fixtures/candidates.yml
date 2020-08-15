@@ -2,14 +2,14 @@
 
 one:
   first_name: MyString
-  last_email: MyString
+  last_name: MyString
   email: MyString
   slug: MyString
   status: MyString
 
 two:
   first_name: MyString
-  last_email: MyString
+  last_name: MyString
   email: MyString
   slug: MyString
   status: MyString
