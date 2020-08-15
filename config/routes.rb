@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-  resources :candidates
+
 	root 'home#index'
+
+	scope :api, defaults: {format: :json} do
+		resources :candidates
+	end
 end
