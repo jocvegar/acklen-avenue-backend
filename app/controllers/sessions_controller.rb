@@ -1,4 +1,4 @@
-class SessionsController <  Devise::SessionsController
+class SessionsController < Devise::SessionsController
 	def create
 	  super { @token = current_token }
 	end
