@@ -27,6 +27,7 @@ gem 'rack-cors'
 gem 'friendly_id', '~> 5.4.0'
 gem 'devise'
 gem 'devise-jwt', '~> 0.6.0'
+gem "figaro"
 
 
 group :development, :test do
